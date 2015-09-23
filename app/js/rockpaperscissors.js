@@ -93,6 +93,11 @@ function playToFive() {
         computerWins +=1;
     }
 
+    else if (winner === "tie") {
+        playerWins +=1;
+        computerWins +=1;
+    }
+
    
     console.log('Player chose ' + playerMove + ' ' + 'while Computer chose ' + computerMove);
     console.log(winner + ' ' + 'is the winner!');
